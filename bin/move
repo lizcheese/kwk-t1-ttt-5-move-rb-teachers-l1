@@ -2,4 +2,10 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+def input_to_index(number)
+  number = ("1","2","3","4","5","6","7","8","9")
+  number .to_i do
+  number - 1
+end
+
+input_to_index(number)
